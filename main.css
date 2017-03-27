@@ -1,5 +1,7 @@
 /*Custom CSS Begins*/
 
+/* Tag Selectors */
+
 body {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -14,42 +16,7 @@ a:visited {
     color: inherit;
 }
 
-.hello {
-    margin-top: 1em;
-}
-
-.social-link {
-    text-align: center;
-    opacity: 0.1;
-}
-
-.social-link:hover {
-    opacity: 0.3;
-    transition: all 0.5s;
-}
-
-.heading {
-    font-size: 6em;
-    padding-top: 0.5em;
-}
-
-.sub-heading {
-    font-size: 3em;
-}
-
-.section-heading {
-    font-size: 2em;
-    margin-bottom: 1em;
-}
-
-.description {
-    font-size: 1.5em;
-    padding-top: 0.5em;
-}
-
-.arrow {
-    margin-right: 0.5em;
-}
+/* Text Modifiers*/
 
 .t-white {
     color: #fff;
@@ -100,16 +67,14 @@ a:visited {
     border-bottom: 1px dotted #eee;
 }
 
+/* Containers */
+
 .alt-container {
     padding: 2em 0;
 }
 
 .normal-container {
     padding: 2em 0;
-}
-
-.clear-margin {
-    margin: 0;
 }
 
 .alt-container.grey {
@@ -131,6 +96,35 @@ a:visited {
   padding-right: 1.5em;
 }
 
+/* Other Styles */
+
+.hello {
+    margin-top: 1em;
+}
+
+.heading {
+    font-size: 6em;
+    padding-top: 0.5em;
+}
+
+.sub-heading {
+    font-size: 3em;
+}
+
+.section-heading {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.description {
+    font-size: 1.5em;
+    padding-top: 0.5em;
+}
+
+.arrow {
+    margin-right: 0.5em;
+}
+
 .work {
     padding: 1em 0;
 }
@@ -146,10 +140,6 @@ a:visited {
 @media screen and (min-width: 768px) {
     .hello {
         margin-top: 8em;
-    }
-    .social-link {
-        margin-top: 10em;
-        text-align: right;
     }
     .hero {
         margin-bottom: 6em;
