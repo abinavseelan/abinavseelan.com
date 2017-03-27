@@ -5,15 +5,29 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+a:visited {
+    color: inherit;
+}
+
 .hello {
     margin-top: 1em;
 }
 
-.koala {
+.social-link {
+    margin-top: 10em;
     text-align: center;
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
+.social-link:hover {
+    opacity: 0.3;
+    transition: all 0.5s;
+}
 
 .heading {
     font-size: 6em;
@@ -26,6 +40,7 @@ body {
 
 .section-heading {
     font-size: 2em;
+    margin-bottom: 1em;
 }
 
 .description {
@@ -35,6 +50,10 @@ body {
 
 .arrow {
     margin-right: 0.5em;
+}
+
+.t-white {
+    color: #fff;
 }
 
 .t-grey {
@@ -82,9 +101,20 @@ body {
     border-bottom: 1px dotted #eee;
 }
 
+.hero {
+    margin-bottom: 6em;
+}
+
 .alt-container {
-    margin-top: 6em;
-    padding: 1em 0;
+    padding: 2em 0;
+}
+
+.normal-container {
+    padding: 2em 0;
+}
+
+.clear-margin {
+    margin: 0;
 }
 
 .alt-container.grey {
@@ -93,6 +123,10 @@ body {
 
 .alt-container.green {
     background-color: #2ACD7E;
+}
+
+.alt-container.black {
+    background-color: #000;
 }
 
 .container {
@@ -118,7 +152,7 @@ body {
     .hello {
         margin-top: 8em;
     }
-    .koala {
+    .social-link {
         text-align: right;
     }
 }
