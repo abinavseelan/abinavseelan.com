@@ -9,6 +9,11 @@ body {
     margin-top: 1em;
 }
 
+.koala {
+    text-align: center;
+    opacity: 0.3;
+}
+
 .heading {
     font-size: 6em;
     padding-top: 0.5em;
@@ -90,7 +95,7 @@ body {
 }
 
 .work {
-    padding: 1em 1em;
+    padding: 1em 0;
 }
 
 .job-company {
@@ -105,8 +110,8 @@ body {
     .hello {
         margin-top: 8em;
     }
-    .work {
-        padding: 1em 2em;
+    .koala {
+        text-align: right;
     }
 }
 
