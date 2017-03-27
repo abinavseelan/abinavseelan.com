@@ -3,6 +3,16 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.hello {
+    margin-top: 1em;
+}
+
+@media screen and (min-width: 768px) {
+    .hello {
+        margin-top: 8em;
+    }
+}
+
 .heading {
     font-size: 6em;
     padding-top: 0.5em;
@@ -10,11 +20,10 @@ body {
 
 .sub-heading {
     font-size: 3em;
-    padding-top: 0.5em;
 }
 
 .description {
-    font-size: 1em;
+    font-size: 1.5em;
     padding-top: 0.5em;
     color: #565656;
 }
