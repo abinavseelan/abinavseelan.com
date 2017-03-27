@@ -27,8 +27,16 @@ body {
     padding-top: 0.5em;
 }
 
+.arrow {
+    margin-right: 0.5em;
+}
+
 .t-grey {
     color: #565656;
+}
+
+.t-green {
+    color: #2ACD7E;
 }
 
 .t-light-grey {
