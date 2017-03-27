@@ -1,0 +1,46 @@
+@font-face {
+    font-family: sourcesans-regular;
+    src: url('./fonts/SourceSansPro-Regular.otf');
+}
+
+@font-face {
+    font-family: sourcesans-light;
+    src: url('./fonts/SourceSansPro-Light.otf');
+}
+
+@font-face {
+    font-family: sourcesans-extra-light;
+    src: url('./fonts/SourceSansPro-ExtraLight.otf');
+}
+
+@font-face {
+    font-family: sourcesans-bold;
+    src: url('./fonts/SourceSansPro-Bold.otf');
+}
+
+@font-face {
+    font-family: sourcesans-black;
+    src: url('./fonts/SourceSansPro-Black.otf');
+}
+
+body {
+    font-size: 16px;
+    font-family: sourcesans-regular;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+    align-items: center;
+    flex-basis: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .column {
+    flex: 1;
+  }
+}
