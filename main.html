@@ -2,13 +2,14 @@
 <html amp lang="en">
     <head>
         <meta charset="utf-8">
-        <script async src="https://cdn.ampproject.org/v0.js"></script>
         <title>Abinav Seelan | Front End Engineer</title>
         <!-- <link href="./main.css" rel="stylesheet" type="text/css" /> -->
         <link rel="canonical" href="http://abinavseelan.com" />
         <link rel=icon href="./images/favicon.png" />
         <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
         <meta property="og:description" content="Hello! I'm Abinav Seelan, a web engineer based out of BLR.">
+        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
         <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
         <script type="application/ld+json">
@@ -75,10 +76,10 @@
                                 <br />
                                 The workflow at Saltside involves taking a feature from design, to development, through testing and then deployment,
                                 where it impacts millions of users across the four markets -
-                                <a href="https://bikroy.com" class="t-link t-light-grey" target="_blank">Bikroy.com</a>,
-                                <a href="https://ikman.lk" class="t-link t-light-grey" target="_blank">ikman.lk</a>,
-                                <a href="https://tonaton.com" class="t-link t-light-grey" target="_blank">Tonaton.com</a>,
-                                <a href="https://efritin.com" class="t-link t-light-grey" target="_blank">Efritin.com</a>
+                                <a href="https://bikroy.com" class="t-link t-light-grey .saltside-site" target="_blank">Bikroy.com</a>,
+                                <a href="https://ikman.lk" class="t-link t-light-grey .saltside-site" target="_blank">ikman.lk</a>,
+                                <a href="https://tonaton.com" class="t-link t-light-grey .saltside-site" target="_blank">Tonaton.com</a>,
+                                <a href="https://efritin.com" class="t-link t-light-grey .saltside-site" target="_blank">Efritin.com</a>
                             </p>
                         </div>
                         <div class="work">
@@ -133,7 +134,7 @@
                                 <span>ReviewBot</span>
                             </p>
                             <div>
-                                <a class="t-light-grey t-link" href="https://github.com/abinavseelan/review-bot" target="_blank">View on Github</a>
+                                <a id="reviewbot" class="t-light-grey t-link" href="https://github.com/abinavseelan/review-bot" target="_blank">View on Github</a>
                             </div>
                             <p class="t-grey t-light job-description">
                                 A solution to a common problem faced by organizations using Slack and Github.
@@ -146,7 +147,7 @@
                                 <span>Votr - An open voting platform</span>
                             </p>
                             <div>
-                                <a class="t-light-grey t-link" href="https://github.com/pinkhelium/votr/" target="_blank">View on Github</a>
+                                <a id="votr" class="t-light-grey t-link" href="https://github.com/pinkhelium/votr/" target="_blank">View on Github</a>
                             </div>
                             <p class="t-grey t-light job-description">
                                 Built a <span class="t-bold">Real-time voting platform</span>, using the MEAN stack and Firebase,
@@ -168,7 +169,7 @@
                         <div class="work">
                             <p>
                                 <span class="job-company t-regular t-grey">
-                                    <a class="t-link t-grey" href="https://github.com/abinavseelan/pesitbsc-nodejs101" target="_blank">
+                                    <a id="campNode" class="t-link t-grey" href="https://github.com/abinavseelan/pesitbsc-nodejs101" target="_blank">
                                         Camp Node - An introduction to building web applications
                                     </a>
                                 </span>
@@ -183,7 +184,7 @@
                         <div class="work">
                             <p>
                                 <span class="job-company t-regular t-grey">
-                                    <a class="t-link t-grey" href="https://github.com/campvanilla/introduction-to-github/wiki" target="_blank">
+                                    <a id="introToGit" class="t-link t-grey" href="https://github.com/campvanilla/introduction-to-github/wiki" target="_blank">
                                         An Introduction to Git and Github
                                     </a>
                                 </span>
@@ -209,8 +210,8 @@
                         <div class="job-role t-white t-light">
                             If you want to say hi, please <a class="t-white t-link" href="mailto:abinav.n.seelan@gmail.com">drop me a mail</a> =)
                             <br /><br />
-                            You can also find me on <a href="https://github.com/abinavseelan" class="t-link t-white" target="_blank">Github</a>
-                            and <a href="https://www.linkedin.com/in/abinavseelan/" class="t-link t-white" target="_blank">LinkedIn</a>
+                            You can also find me on <a id="githubProfile" href="https://github.com/abinavseelan" class="t-link t-white" target="_blank">Github</a>
+                            and <a id="linkedinProfile" href="https://www.linkedin.com/in/abinavseelan/" class="t-link t-white" target="_blank">LinkedIn</a>
                         </div>
                     </div>
                 </div>
@@ -227,5 +228,55 @@
                 </div>
             </div>
         </div>
+        <amp-analytics type="googleanalytics">
+            <script type="application/json">
+                {
+                  "vars": {
+                    "account": "UA-96285546-1"
+                  },
+                  "triggers": {
+                    "trackPageview": {
+                      "on": "visible",
+                      "request": "pageview"
+                    },
+                    "trackClickGithubProfile" : {
+                        "on": "click",
+                        "selector": "#githubProfile",
+                        "request": "event"
+                    },
+                    "trackClickLinkedinProfile" : {
+                        "on": "click",
+                        "selector": "#linkedinProfile",
+                        "request": "event"
+                    },
+                    "trackClickCampNode" : {
+                        "on": "click",
+                        "selector": "#campNode",
+                        "request": "event"
+                    },
+                    "trackClickIntroToGit" : {
+                        "on": "click",
+                        "selector": "#introToGit",
+                        "request": "event"
+                    },
+                    "trackClickVotr" : {
+                        "on": "click",
+                        "selector": "#votr",
+                        "request": "event"
+                    },
+                    "trackClickReviewbot" : {
+                        "on": "click",
+                        "selector": "#reviewbot",
+                        "request": "event"
+                    },
+                    "trackClickSaltsideSite" : {
+                        "on": "click",
+                        "selector": ".saltside-site",
+                        "request": "event"
+                    }
+                  }
+                }
+            </script>
+        </amp-analytics>
     </body>
 </html>
