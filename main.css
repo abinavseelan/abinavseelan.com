@@ -14,6 +14,7 @@ body {
     opacity: 0.3;
 }
 
+
 .heading {
     font-size: 6em;
     padding-top: 0.5em;
@@ -83,8 +84,15 @@ body {
 
 .alt-container {
     margin-top: 6em;
-    background-color: #fbfbfb;
     padding: 1em 0;
+}
+
+.alt-container.grey {
+    background-color: #fbfbfb;
+}
+
+.alt-container.green {
+    background-color: #2ACD7E;
 }
 
 .container {
