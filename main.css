@@ -19,7 +19,6 @@ a:visited {
 }
 
 .social-link {
-    margin-top: 10em;
     text-align: center;
     opacity: 0.1;
 }
@@ -101,10 +100,6 @@ a:visited {
     border-bottom: 1px dotted #eee;
 }
 
-.hero {
-    margin-bottom: 6em;
-}
-
 .alt-container {
     padding: 2em 0;
 }
@@ -153,7 +148,11 @@ a:visited {
         margin-top: 8em;
     }
     .social-link {
+        margin-top: 10em;
         text-align: right;
+    }
+    .hero {
+        margin-bottom: 6em;
     }
 }
 
