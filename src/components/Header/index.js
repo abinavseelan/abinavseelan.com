@@ -2,7 +2,7 @@ import React from 'react'
 
 import NavItem from './NavItem';
 
-import '../styles/header.scss';
+import '../../styles/header.scss';
 
 const Header = () => (
   <nav className='nav'>
@@ -25,10 +25,10 @@ const Header = () => (
             label: 'Articles',
             path: '#Articles',
           },
-        ].map(navItem => (<NavItem info={navItem} />)
+        ].map(navItem => (<NavItem info={navItem} />))
       }
     </div>
   </nav>
 )
 
-export default Header
+export default Header;
