@@ -1,3 +1,5 @@
+@import '../styles/_colors.scss';
+
 * {
   box-sizing: border-box;
 }
@@ -10,4 +12,31 @@ html {
 }
 body {
   margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3em;
+  color: $black;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: $black;
+}
+
+.t-regular {
+  font-weight: 400;
+}
+
+.t-bold {
+  font-weight: 700;
+}
+
+.t-mtb-15 {
+  margin: 15px 0;
 }

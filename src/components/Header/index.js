@@ -1,5 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
+
+import NavItem from './NavItem';
 
 import '../styles/header.scss';
 
@@ -24,14 +25,7 @@ const Header = () => (
             label: 'Articles',
             path: '#Articles',
           },
-        ].map(navItem => (
-            <Link
-              to={navItem.path}
-              className="nav-item"
-            >
-              {navItem.label}
-            </Link>
-        ))
+        ].map(navItem => (<NavItem info={navItem} />)
       }
     </div>
   </nav>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Abinav Seelan | UI Engineer, Flipkart.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
