@@ -1,0 +1,27 @@
+@import './_colors.scss';
+
+.data-item {
+    margin: 40px 0;
+
+    a {
+        text-decoration: none;
+    }
+
+    .inline {
+        display: inline-block;
+    }
+
+    .data-heading {
+        transition: all 0.15s ease-out;
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
+
+        &:hover {
+            border-bottom-color: $light-grey;
+        }
+    }
+
+    .data-heading, .data-sub-heading {
+        margin: 10px 0;
+        color: $dark-grey;
+    }
+}

@@ -1,0 +1,21 @@
+@import './_colors.scss';
+
+.section {
+    color: $black;
+    overflow-x: hidden;
+
+    &.section-inverted {
+        background-color: $purple;
+        margin-left: -50vh;
+        margin-right: -50vh;
+
+        .heading {
+            color: $white;
+        }
+    }
+
+    .heading {
+        color: $black;
+        font-size: 2.24em;
+    }
+}
