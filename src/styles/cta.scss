@@ -1,0 +1,43 @@
+@import './_colors.scss';
+
+.cta, a.cta {
+    padding: 18px 54px;
+    text-align: center;
+    border-radius: 28.5px;
+    border: 0;
+    font-size: 1em;
+    margin: 35px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+
+    transition: all 0.15s ease-out;
+
+    &:hover {
+        transform: translateY(-1px);
+    }
+
+    &.primary-cta {
+        color: $white;
+        background-color: $red;
+        box-shadow: 0 2px 5px 0 $red-shadow;
+
+        &:hover {
+            box-shadow: 0 7px 14px 0 $red-shadow , 0 3px 6px 0 $red-shadow;
+        }
+    }
+
+    &.secondary-cta {
+        color: $white;
+        background-color: $purple;
+        box-shadow: 0 2px 5px 0 $purple-shadow;
+
+        &:hover {
+            box-shadow: 0 7px 14px 0 $purple-shadow , 0 3px 6px 0 $purple-shadow;
+        }
+    }
+
+    &.inline-cta {
+        display: inline-block;
+    }
+}

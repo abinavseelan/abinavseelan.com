@@ -25,7 +25,7 @@ const Header = () => (
             label: 'Articles',
             path: '#Articles',
           },
-        ].map(navItem => (<NavItem info={navItem} />))
+        ].map(navItem => (<NavItem info={navItem} key={navItem.label} />))
       }
     </div>
   </nav>

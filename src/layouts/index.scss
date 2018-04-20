@@ -40,3 +40,18 @@ h2 {
 .t-mtb-15 {
   margin: 15px 0;
 }
+
+.chevron {
+    & > span {
+        transform: translateX(0);
+        display: inline-block;
+        transition: transform 0.15s ease-out;
+        position: relative;
+        top: -1px;
+        left: 2px;
+    }
+
+    &:hover > span {
+        transform: translateX(3px);
+    }
+}

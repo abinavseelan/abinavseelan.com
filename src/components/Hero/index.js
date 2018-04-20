@@ -13,16 +13,12 @@ const Hero = () => (
             UI Engineer at Flipkart.com and Author at Camp Vanilla
         </h2>
 
-        <CTA type="primary" inline>
-            <a href="/resume.pdf">
-                My Resume
-            </a>
+        <CTA type="primary" inline external to="/resume.pdf" title="Resume">
+            My Resume
         </CTA>
 
-        <CTA type="secondary" inline>
-            <a href="https://blog.campvanilla.com">
-                Visit Camp Vanilla ›
-            </a>
+        <CTA type="secondary" inline external to="https://blog.campvanilla.com" title="CampVanilla" className="chevron">
+            Visit Camp Vanilla <span>›</span>
         </CTA>
     </div>
 );
