@@ -1,5 +1,13 @@
+@import './_colors.scss';
+
 .hero {
     width: 100%;
     text-align: center;
     margin: 70px 0;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid $border-grey;
+    margin: 30px 30%;
 }
