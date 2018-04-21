@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://www.abinavseelan.com`,
+  },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
@@ -16,6 +19,9 @@ module.exports = {
         trackingId: "UA-96285546-1",
         head: false,
       }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`
     }
   ],
 }
