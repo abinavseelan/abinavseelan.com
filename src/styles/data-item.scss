@@ -3,11 +3,8 @@
 .data-item {
     margin: 30px 0;
 
-    &:last-child {
-        margin: 40px;
-    }
-
     a {
+        color: inherit;
         text-decoration: none;
     }
 
@@ -25,6 +22,7 @@
     .data-heading {
         transition: all 0.15s ease-out;
         border-bottom: 1px solid rgba(0, 0, 0, 0);
+        display: inline-block;
 
         &:hover {
             border-bottom-color: $light-grey;
@@ -32,7 +30,36 @@
     }
 
     .data-heading, .data-sub-heading {
-        margin: 10px 0;
-        color: $dark-grey;
+        margin: 4px 0;
+        color: inherit;
+    }
+
+    .inline-heading, .notify-tab {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .notify-tab {
+        background: white;
+        padding: 6px 18px;
+        border-radius: 28px;
+        margin-left: 2em;
+
+        font-size: 0.75em;
+        color: $red;
+        box-shadow: 0 2px 5px 0 $grey-shadow;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .data-item {
+        margin: 50px 0;
+
+        .inline { 
+            display: block;
+            margin-right: 0;
+            margin-top: 10px;
+        }
     }
 }

@@ -23,3 +23,13 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .nav {
+        height: 80px;
+
+        .nav-list, .nav-item {
+            display: none;
+        }
+    }
+}

@@ -8,6 +8,7 @@ import CTA from '../components/CTA';
 import talks from '../data/Talks';
 import experience from '../data/Experience';
 import work from '../data/Work';
+import articles from '../data/Articles';
 
 const IndexPage = () => (
   <div>
@@ -55,10 +56,21 @@ const IndexPage = () => (
       </CTA>
     </Section>
   
-    {/* <Section
+    <Section
       title="Articles."
+      data={articles.filter(article => article.tag === 'new' || article.tag === 'popular')}
       inverted
-    /> */}
+    >
+      <CTA
+        type="white"
+        to="https://blog.campvanilla.com"
+        title="Visit Camp Vanilla"
+        className="chevron"
+        external
+      >
+        View more on CampVanilla <span> ›</span>
+      </CTA>
+    </Section>
   </div>
 );
 

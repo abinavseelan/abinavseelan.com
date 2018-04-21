@@ -15,7 +15,21 @@ export default ({ data }) => (
         }
         <div className="inline">
             <a href={data[data.main]}>
-                <h3 className="data-heading t-bold">{data.heading}</h3>
+                <h3 className={`data-heading t-bold ${data.notify ? 'inline-heading': ''}`}>{data.heading}</h3>
+                {
+                    data.notify
+                        ? (
+                            <span className="notify-tab t-bold">
+                                {data.notify.text}
+                            </span>
+                        )
+                        : (
+                            null
+                        )
+                }
+                <span>
+
+                </span>
             </a>
             {
                 data.subHeadings.map(subHeading => <h4 key={subHeading} className="data-sub-heading t-regular">{subHeading}</h4>)

@@ -9,6 +9,8 @@
     cursor: pointer;
     outline: none;
     text-decoration: none;
+    display: inline-block;
+    margin: 35px 0;
 
     transition: all 0.15s ease-out;
 
@@ -36,12 +38,21 @@
         }
     }
 
+    &.white-cta {
+        color: $purple;
+        background-color: $white;
+        box-shadow: 0 2px 5px 0 $grey-shadow;
+
+        &:hover {
+            box-shadow: 0 7px 14px 0 $grey-shadow , 0 3px 6px 0 $grey-shadow;
+        }
+    }
+
     &.inverted-cta {
         color: $teal;
         background-color: transparent;
         border: 1px solid $teal;
         transition: all 0.15s ease-out;
-        display: inline-block;
 
         &:hover {
             background-color: $teal;
@@ -50,7 +61,14 @@
     }
 
     &.inline-cta {
-        display: inline-block;
         margin: 35px 35px 70px 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cta, a.cta {
+        &.inline-cta {
+           margin: 24px;
+        }
     }
 }
