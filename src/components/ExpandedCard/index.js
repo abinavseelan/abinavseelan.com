@@ -16,10 +16,7 @@ export default ({ data }) => (
         {
             data.videoLink
             ? (
-                <Youtube
-                videoId={data.videoLink.substr(data.videoLink.lastIndexOf('/') + 1, data.videoLink.length)}
-                className="youtube-player"
-                />
+                <a href={data.slidesLink} className="link t-bold chevron">View Video <span>›</span></a>
             )
             : (
                 null
