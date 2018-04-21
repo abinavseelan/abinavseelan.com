@@ -9,6 +9,13 @@ module.exports = {
           'open sans\:400,700'
         ]
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-96285546-1",
+        head: false,
+      }
     }
   ],
 }
