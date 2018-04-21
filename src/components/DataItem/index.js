@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../../styles/data-item.scss';
 
-export default ({ data }) => (
+const DataItem = ({ data }) => (
     <div className="data-item">
         {
             data.image
@@ -15,7 +15,7 @@ export default ({ data }) => (
         }
         <div className="inline">
             <a href={data[data.main]}>
-                <h3 className={`data-heading t-bold ${data.notify ? 'inline-heading': ''}`}>{data.heading}</h3>
+                <h3 className={`data-heading t-bold ${data.notify ? 'inline-heading' : ''}`}>{data.heading}</h3>
                 {
                     data.notify
                         ? (
@@ -27,9 +27,6 @@ export default ({ data }) => (
                             null
                         )
                 }
-                <span>
-
-                </span>
             </a>
             {
                 data.subHeadings.map(subHeading => <h4 key={subHeading} className="data-sub-heading t-regular">{subHeading}</h4>)
@@ -37,3 +34,5 @@ export default ({ data }) => (
         </div>
     </div>
 );
+
+export default DataItem;

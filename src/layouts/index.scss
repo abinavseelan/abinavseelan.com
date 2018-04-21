@@ -30,6 +30,10 @@ h2 {
   color: $black;
 }
 
+.heading {
+  font-size: 2.24em;
+}
+
 .t-regular {
   font-weight: 400;
 }
@@ -40,6 +44,16 @@ h2 {
 
 .t-mtb-15 {
   margin: 15px 0;
+}
+
+.transparent-button {
+  text-decoration: none;
+  color: $dark-grey;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    color: $black;
+  }
 }
 
 .chevron {

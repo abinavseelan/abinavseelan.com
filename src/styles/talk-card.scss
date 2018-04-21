@@ -1,0 +1,29 @@
+@import './_colors.scss';
+
+.talk-card {
+    margin: 50px 0;
+    overflow: hidden;
+
+    .youtube-player {
+        width: 640px;
+        height: 360px;
+        margin: 30px 0;
+    }
+
+    .link {
+        text-decoration: none;
+        color: $purple;
+        display: block;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .talk-card {
+        .youtube-player {
+            margin: 30px auto;
+            width: 80vw;
+            height: calc(80vw * 9 / 16);
+        }
+    }
+}
