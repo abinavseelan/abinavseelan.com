@@ -10,6 +10,7 @@ export default [
             text: 'New!'
         },
         main: "articleLink",
+        publishedDate: "2018-03-17",
     },
     {
         id: 11,
@@ -18,6 +19,7 @@ export default [
         description: `<p>Most editors and writing apps, including Medium here, provide some means to reference other users on their platform. A common pattern that a lot of applications use (Github, Slack, Facebook, Twitter…</p>`,
         articleLink: "https://blog.campvanilla.com/reactjs-input-trigger-github-twitter-mentions-8ad1d878110d",
         main: "articleLink",
+        publishedDate: "2018-03-09",
     },
     {
         id: 10,
@@ -26,6 +28,7 @@ export default [
         description: `<p>We’ll be building a menu with the following interactions:- Clicking opens the menu. Clicking on anything inside it does not close the menu. Clicking anywhere outside the menu closes it.</p>`,
         articleLink: "https://blog.campvanilla.com/reactjs-dropdown-menus-b6e06ae3a8fe",
         main: "articleLink",
+        publishedDate: "2018-02-24",
     },
     {
         id: 9,
@@ -34,6 +37,7 @@ export default [
         description: `<p>This is more of a TIL post; something that I feel might be useful to someone looking for answers to what I had run into. 😄</p>`,
         articleLink: "https://blog.campvanilla.com/jest-expressjs-and-the-eaddrinuse-error-bac39356c33a",
         main: "articleLink",
+        publishedDate: "2018-02-11",
     },
     {
         id: 8,
@@ -43,6 +47,7 @@ export default [
         articleLink: "https://blog.campvanilla.com/advanced-guide-javascript-proxy-objects-introduction-301c0fce9432",
         tag: "popular",
         main: "articleLink",
+        publishedDate: "2017-12-23",
     },
     {
         id: 7,
@@ -51,6 +56,7 @@ export default [
         description: `<p>A quick guide on managing your users’ online and offline statuses using Firestore, Firebase Cloud Functions and Firebase Realtime database</p>`,
         articleLink: "https://blog.campvanilla.com/firebase-firestore-guide-how-to-user-presence-online-offline-basics-66dc27f67802",
         main: "articleLink",
+        publishedDate: "2017-12-15",
     },
     {
         id: 6,
@@ -59,6 +65,7 @@ export default [
         description: `<p>There is no denying the impact that Redux has had on the React (and even Angular) landscape. Over the years, it has cemented its position as one of the most popular state management libraries. Now…</p>`,
         articleLink: "https://blog.campvanilla.com/redux-middleware-basics-getting-started-17dc31c6435c",
         main: "articleLink",
+        publishedDate: "2017-12-08",
     },
     {
         id: 5,
@@ -67,6 +74,7 @@ export default [
         description: `<p>Some day, someone is going to find your well structured PR, task or doc, or even the guide you’d written and think to themselves — “Damn. Whoever you are, I will find you and I will buy you a beer” 🍻</p>`,
         articleLink: "https://blog.campvanilla.com/documentation-does-not-have-to-be-hard-2ff2688dd7b0",
         main: "articleLink",
+        publishedDate: "2017-11-17",
     },
     {
         id: 4,
@@ -75,6 +83,7 @@ export default [
         description: `<p>Infinite scroll is a UX staple today. It’s a seamless way to get users to potentially see everything that you’ve got to offer without showing them where your content ends. It makes content discovery…</p>`,
         articleLink: "https://blog.campvanilla.com/search-friendly-infinite-scroll-content-seo-a9eb5fc55758",
         main: "articleLink",
+        publishedDate: "2017-11-10",
     },
     {
         id: 3,
@@ -84,6 +93,7 @@ export default [
         articleLink: "https://blog.campvanilla.com/javascript-the-curious-case-of-null-0-7b131644e274",
         tag: "popular",
         main: "articleLink",
+        publishedDate: "2017-10-06",
     },
     {
         id: 2,
@@ -92,6 +102,7 @@ export default [
         description: `<p>Image manipulation is a common task that developers come across. Uploaded images may need to be cropped, resized, compressed, etc on the server before being saved off in a storage service like s3…</p>`,
         articleLink: "https://blog.campvanilla.com/nodejs-graphicsmagick-cropping-resizing-server-api-b410fe98e41",
         main: "articleLink",
+        publishedDate: "2017-08-25",
     },
     {
         id: 1,
@@ -100,5 +111,6 @@ export default [
         description: `<p>Desktop browsers have amazing debugging and developer tools. Using Chrome Remote Debugging, you can now extend this to mobile browsers too!</p>`,
         articleLink: "https://blog.campvanilla.com/debug-website-on-mobile-device-5c27c8809d39",
         main: "articleLink",
+        publishedDate: "2017-08-18",
     }
 ];

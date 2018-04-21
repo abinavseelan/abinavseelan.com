@@ -10,6 +10,10 @@ import experience from '../data/Experience';
 import work from '../data/Work';
 import articles from '../data/Articles';
 
+import LDJSON from '../components/LDJSON';
+
+import { articleSEO, aboutMe, aboutCampVanilla } from '../data/seo';
+
 const IndexPage = () => (
   <div>
     <Hero />
@@ -70,6 +74,14 @@ const IndexPage = () => (
       >
         View more on CampVanilla <span> ›</span>
       </CTA>
+
+      {
+        articles
+          .filter(article => article.tag === 'new' || article.tag === 'popular')
+          .map(article => (
+            <LDJSON key={article.id} data={ articleSEO(aboutMe, aboutCampVanilla, article) } />
+          ))
+      }
     </Section>
   </div>
 );

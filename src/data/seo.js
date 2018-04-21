@@ -86,3 +86,23 @@ export const aboutWebsite = {
         "name": "Abinav Seelan"
     }
 }
+
+export const aboutCampVanilla = {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Camp Vanilla",
+    "logo": "https://cdn-images-1.medium.com/max/184/1*Ibh2GzBpGrbOiXRD9o5-IA@2x.png"
+}
+
+export const articleSEO = (author, publisher, articleInfo) => ({
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": articleInfo.heading,
+    "description": articleInfo.subHeadings[0],
+    "datePublished": articleInfo.publishedDate,
+    "author": author,
+    "publisher": publisher,
+    "dateModified": articleInfo.publishedDate,
+    "mainEntityOfPage": articleInfo.articleLink,
+    "url": articleInfo.articleLink,
+});
