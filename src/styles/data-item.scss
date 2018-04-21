@@ -3,12 +3,23 @@
 .data-item {
     margin: 40px 0;
 
+    &:last-child {
+        margin: 40px;
+    }
+
     a {
         text-decoration: none;
     }
 
+    img {
+        height: 70px;
+        width: 70px;
+    }
+
     .inline {
         display: inline-block;
+        margin-right: 30px;
+        vertical-align: middle;
     }
 
     .data-heading {

@@ -17,7 +17,9 @@ export default ({ data }) => (
             <a href={data[data.main]}>
                 <h3 className="data-heading t-bold">{data.heading}</h3>
             </a>
-            <h4 className="data-sub-heading t-regular">{data.subHeading}</h4>
+            {
+                data.subHeadings.map(subHeading => <h4 key={subHeading} className="data-sub-heading t-regular">{subHeading}</h4>)
+            }
         </div>
     </div>
 );

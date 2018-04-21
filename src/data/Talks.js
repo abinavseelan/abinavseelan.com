@@ -1,7 +1,8 @@
 export default [
     {
+        id: 6,
         heading: "JS For Newbies #2 - Data types, arrays, objects, functions",
-        subHeading: "January 2018, JS Meetup Bangalore (Online)",
+        subHeadings: ["January 2018, JS Meetup Bangalore (Online)"],
         description: "A webinar introducing newcomers to Javascript to Data Types, Arrays, Objects and Functions in the language. This was the second session in a set of sessions aimed to help those who want to learn Javascript! ",
         eventLink: "https://www.meetup.com/JavaScript-Meetup-Bangalore/events/246187384/",
         githubLink: "https://github.com/abinavseelan/js-for-newbies-2",
@@ -10,8 +11,9 @@ export default [
         main: "videoLink",
     },
     {
+        id: 5,
         heading: "Redux Middleware - A DIY Guide",
-        subHeading: "December 2017, ReactJS Bangalore",
+        subHeadings: ["December 2017, ReactJS Bangalore"],
         description: "A talk on how middleware in Redux work and a quick code-along to building your own custom Redux Middleware! ",
         eventLink: "https://www.meetup.com/ReactJS-Bangalore/events/244815606/",
         githubLink: null,
@@ -20,8 +22,9 @@ export default [
         main: "videoLink",
     },
     {
+        id: 4,
         heading: "Investigating Memory Leaks (and performance tuning your Javascript)",
-        subHeading: "October 2017, AngularJS & ReactJS Bangalore",
+        subHeadings: ["October 2017, AngularJS & ReactJS Bangalore"],
         description: "A talk on how garbage collection and memory leaks occur in Javascript, and how these memory leaks can be investigated and fixed using the Chrome Developer Tools.",
         eventLink: "https://www.meetup.com/AngularJS-Bangalore/events/243573762/",
         githubLink: null,
@@ -30,8 +33,9 @@ export default [
         main: "slidesLink",
     },
     {
+        id: 3,
         heading: "An Introduction to Redux",
-        subHeading: "August 2017, Saltside",
+        subHeadings: ["August 2017, Saltside"],
         description: "Crash course on the importance of Redux in managing application state. Talk was primarily focused on ramping up the web team at Saltside to work on the new web stack (React/Redux - ExpressJS - NodeJS).",
         eventLink: null,
         githubLink: null,
@@ -40,8 +44,9 @@ export default [
         main: "slidesLink",
     },
     {
+        id: 2,
         heading: "An Introduction to Git and Github",
-        subHeading: "September 2016, PESIT Bangalore South Campus",
+        subHeadings: ["September 2016, PESIT Bangalore South Campus"],
         description: "Introducing Version Control Systems, specifically Git, and using it with Github to students of PESIT South Campus",
         eventLink: null,
         githubLink: null,
@@ -50,8 +55,9 @@ export default [
         main: null,
     },
     {
+        id: 1,
         heading: "Camp Node - An Introduction to building web applications",
-        subHeading: "March 2016, PESIT Bangalore South Campus",
+        subHeadings: ["March 2016, PESIT Bangalore South Campus"],
         description: "Getting started with web programming for the new web developers through live-coding examples. Built with NodeJS, ExpressJS and MongoDB.",
         eventLink: null,
         githubLink: "https://github.com/abinavseelan/pesitbsc-nodejs101",

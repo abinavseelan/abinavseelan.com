@@ -6,7 +6,6 @@
     border-radius: 28.5px;
     border: 0;
     font-size: 1em;
-    margin: 35px 35px 70px 35px;
     cursor: pointer;
     outline: none;
     text-decoration: none;
@@ -37,7 +36,21 @@
         }
     }
 
+    &.inverted-cta {
+        color: $teal;
+        background-color: transparent;
+        border: 1px solid $teal;
+        transition: all 0.15s ease-out;
+        display: inline-block;
+
+        &:hover {
+            background-color: $teal;
+            color: $white;
+        }
+    }
+
     &.inline-cta {
         display: inline-block;
+        margin: 35px 35px 70px 35px;
     }
 }

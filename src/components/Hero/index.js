@@ -5,11 +5,11 @@ import SocialLinks from '../SocialLinks';
 
 import '../../styles/hero.scss';
 
-import github from '../../images/github.svg';
-import twitter from '../../images/twitter.svg';
-import medium from '../../images/medium.svg';
-import linkedin from '../../images/linkedin.svg';
-import email from '../../images/email.svg';
+import github from '../../images/social/github.svg';
+import twitter from '../../images/social/twitter.svg';
+import medium from '../../images/social/medium.svg';
+import linkedin from '../../images/social/linkedin.svg';
+import email from '../../images/social/email.svg';
 
 const links = [
     {
