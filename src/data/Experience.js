@@ -18,7 +18,7 @@ export default [
         subHeadings: ['Software Engineer: Oct 2017 to Mar 2018'],
         description: `
             <p>
-                At Hashnode, I was part of the core team building a<i>Friendly and inclusive Q & amp; A community for coders</i>.My role at Hashnode was that of a<strong>Full Stack Engineer</strong>.Features required me working across the stack, with ReactJS on the frontend and NodeJS and MongoDB in the backend.
+                At Hashnode, I was part of the core team building a<i>Friendly and inclusive Q &amp; A community for coders</i>. My role at Hashnode was that of a<strong>Full Stack Engineer</strong>. Features required me working across the stack, with ReactJS on the frontend and NodeJS and MongoDB in the backend.
                 <br />
                 <br />
                 Some features that I worked on here are:
@@ -47,6 +47,20 @@ export default [
                 <br>
                 Some features and projects that I worked on here are:
             </p>
+            <ul>
+                <li>
+                    Converting all listing pages to Google AMP pages
+                </li>
+                <li>
+                    The Employer Dashboard. Employers using our sites had a tough time dealing with candidate applications. My team and I built a seamless experience for employers to view potential candidates, filter through the applications and also to shortlist candidates.
+                </li>
+                <li>
+                    Automating the <i>listing fees</i> process for our sales teams
+                </li>
+                <li>
+                    Improvements to the <i>Buy Now</i> feature that made using it a breeze both for end-users and for our internal sales teams.
+                </li>
+            </ul>
         `,
         image: saltside,
         companyLink: "https://saltside.se",

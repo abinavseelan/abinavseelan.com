@@ -1,7 +1,7 @@
 @import './_colors.scss';
 
-.talk-card {
-    margin: 50px 0;
+.expanded-card {
+    margin: 40px 0;
     overflow: hidden;
 
     .youtube-player {
@@ -16,10 +16,25 @@
         display: block;
         margin: 20px 0;
     }
+
+    .description {
+        strong {
+            margin: 0 3px;
+        }
+
+        a {
+            color: $teal;
+            text-decoration: none;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .talk-card {
+    .expanded-card {
         .youtube-player {
             margin: 30px auto;
             width: 80vw;

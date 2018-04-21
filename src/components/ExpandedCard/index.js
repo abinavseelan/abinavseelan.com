@@ -4,16 +4,11 @@ import Youtube from 'react-youtube';
 import DataItem from '../DataItem';
 
 import '../../styles/section.scss';
-import '../../styles/talk-card.scss';
+import '../../styles/expanded-card.scss';
 
 export default ({ data }) => (
-    <div className="section talk-card">
-        <DataItem
-            data={{
-                heading: data.heading,
-                subHeadings: data.subHeadings,
-            }}
-        />
+    <div className="section expanded-card">
+        <DataItem data={data} />
 
         {
             data.slidesLink
