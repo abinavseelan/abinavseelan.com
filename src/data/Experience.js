@@ -52,4 +52,4 @@ export default [
         companyLink: "https://saltside.se",
         main: "companyLink"
     },
-]
+];

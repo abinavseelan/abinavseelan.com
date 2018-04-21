@@ -7,6 +7,7 @@ import CTA from '../components/CTA';
 
 import talks from '../data/Talks';
 import experience from '../data/Experience';
+import work from '../data/Work';
 
 const IndexPage = () => (
   <div>
@@ -40,11 +41,21 @@ const IndexPage = () => (
       </CTA>
     </Section>
   
-    {/* <Section
-      title="Work."
-    />
-  
     <Section
+      title="Work."
+      data={work.slice(0, 4)}
+    >
+      <CTA
+        type="inverted"
+        to="/experience"
+        title="View more details"
+        className="chevron"
+      >
+        View more details <span> ›</span>
+      </CTA>
+    </Section>
+  
+    {/* <Section
       title="Articles."
       inverted
     /> */}
