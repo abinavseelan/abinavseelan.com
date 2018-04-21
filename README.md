@@ -1,26 +1,18 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# Personal Website Development Repo
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+This site is built using [GatsbyJS](https://www.gatsbyjs.org/). :rocket:
 
-## Install
+The site is available at https://abinavseelan.com.
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
+## Development
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
+1. Clone repository and run `npm install` to install all the dependencies.
+2. All development happens within the `src` folder. The entire project is a React application.
 
-Then you can run it by:
-```sh
-cd gatsby-example-site
-npm run develop
-```
 
-## Deploy
+## Deployment
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+1. Run `npm run generate:deployment` to build the project and move the built contents to a deployment folder.
+2. `$ cd ./deployment`.
+3. The contents of this folder need to be pushed to http://github.com/abinavseelan/abinavseelan.github.io since `abinavseelan.com` needs to be mapped to `abinavseelan.github.io`. Once inside the `deployment` folder, add the remote pointer using `git add remote origin git@github.com:abinavseelan/abinavseelan.com.git`.
+4. Run `$ git push origin master` to deploy!

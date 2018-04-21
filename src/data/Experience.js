@@ -38,7 +38,7 @@ export default [
     },
     {
         id: 1,
-        heading: 'Saltiside Tech',
+        heading: 'Saltside Tech',
         subHeadings: ['Web Engineer: Jan 2017 to Oct 2017', 'Associate Web Engineer: Jul 2016 to Dec 2016'],
         description: `
             <p>
