@@ -3,16 +3,16 @@ import Link from 'gatsby-link';
 
 import ExpandedCard from '../components/ExpandedCard';
 
-import experiences from '../data/Experience';
+import work from '../data/Work';
 
-const ExperiencePage = () => (
+const WorkPage = () => (
     <div className="container">
         <Link to="/" className="transparent-button">‹ Back</Link>
         <h2 className="heading t-bold">Experience.</h2>
         {
-            experiences.map(experience => <ExpandedCard key={experience.id} data={experience} />)
+            work.map(w => <ExpandedCard key={w.id} data={w} />)
         }
     </div>
 );
 
-export default ExperiencePage;
+export default WorkPage;

@@ -48,7 +48,7 @@ const IndexPage = () => (
     >
       <CTA
         type="inverted"
-        to="/experience"
+        to="/work"
         title="View more details"
         className="chevron"
       >
