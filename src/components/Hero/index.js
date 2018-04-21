@@ -49,7 +49,7 @@ const Hero = () => (
                 UI Engineer at Flipkart.com and Author at Camp Vanilla
             </h2>
 
-            <CTA type="primary" inline external to="/resume.pdf" title="Resume">
+            <CTA type="primary" inline external to="https://github.com/abinavseelan/abinavseelan.github.io/raw/8033a958bea31efe0b5d7dbbadf39013b1b89c5f/resume.pdf" title="Resume">
                 My Resume
             </CTA>
 
