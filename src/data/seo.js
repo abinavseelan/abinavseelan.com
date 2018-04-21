@@ -102,6 +102,7 @@ export const articleSEO = (author, publisher, articleInfo) => ({
     "datePublished": articleInfo.publishedDate,
     "author": author,
     "publisher": publisher,
+    "image": articleInfo.heroImage,
     "dateModified": articleInfo.publishedDate,
     "mainEntityOfPage": articleInfo.articleLink,
     "url": articleInfo.articleLink,

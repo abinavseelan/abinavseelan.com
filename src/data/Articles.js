@@ -11,6 +11,7 @@ export default [
         },
         main: "articleLink",
         publishedDate: "2018-03-17",
+        heroImage: "https://cdn-images-1.medium.com/max/2000/1*NJVXyesWJy81Hbp2h1fh7Q.jpeg",
     },
     {
         id: 11,
@@ -20,6 +21,7 @@ export default [
         articleLink: "https://blog.campvanilla.com/reactjs-input-trigger-github-twitter-mentions-8ad1d878110d",
         main: "articleLink",
         publishedDate: "2018-03-09",
+        heroImage: "https://cdn-images-1.medium.com/max/1600/1*mTrs6Yn3TcliawkcBp56zA.png",
     },
     {
         id: 10,
@@ -29,6 +31,7 @@ export default [
         articleLink: "https://blog.campvanilla.com/reactjs-dropdown-menus-b6e06ae3a8fe",
         main: "articleLink",
         publishedDate: "2018-02-24",
+        heroImage: "https://cdn-images-1.medium.com/max/2000/1*QoVuGYd0-tMzBJhQCq8mMQ.png",
     },
     {
         id: 9,
@@ -38,6 +41,7 @@ export default [
         articleLink: "https://blog.campvanilla.com/jest-expressjs-and-the-eaddrinuse-error-bac39356c33a",
         main: "articleLink",
         publishedDate: "2018-02-11",
+        heroImage: "https://cdn-images-1.medium.com/max/2000/1*Mmid3OPj9sZtMaLv0H3XWg.png",
     },
     {
         id: 8,
@@ -48,6 +52,7 @@ export default [
         tag: "popular",
         main: "articleLink",
         publishedDate: "2017-12-23",
+        heroImage: "https://cdn-images-1.medium.com/max/2000/1*Mmid3OPj9sZtMaLv0H3XWg.png",
     },
     {
         id: 7,
@@ -57,6 +62,7 @@ export default [
         articleLink: "https://blog.campvanilla.com/firebase-firestore-guide-how-to-user-presence-online-offline-basics-66dc27f67802",
         main: "articleLink",
         publishedDate: "2017-12-15",
+        heroImage: "https://cdn-images-1.medium.com/max/800/1*J3vkfyGGFw5CHf2rOaX0pQ.png",
     },
     {
         id: 6,
@@ -66,6 +72,7 @@ export default [
         articleLink: "https://blog.campvanilla.com/redux-middleware-basics-getting-started-17dc31c6435c",
         main: "articleLink",
         publishedDate: "2017-12-08",
+        heroImage: "https://cdn-images-1.medium.com/max/800/1*BpaqVMW2RjQAg9cFHcX1pw.png",
     },
     {
         id: 5,
@@ -75,6 +82,7 @@ export default [
         articleLink: "https://blog.campvanilla.com/documentation-does-not-have-to-be-hard-2ff2688dd7b0",
         main: "articleLink",
         publishedDate: "2017-11-17",
+        heroImage: "https://cdn-images-1.medium.com/max/800/1*4sIAv54yRf0MchAsXYMxMQ.jpeg",
     },
     {
         id: 4,
@@ -84,6 +92,7 @@ export default [
         articleLink: "https://blog.campvanilla.com/search-friendly-infinite-scroll-content-seo-a9eb5fc55758",
         main: "articleLink",
         publishedDate: "2017-11-10",
+        heroImage: "https://cdn-images-1.medium.com/max/800/1*IJ31bzVZGbnnwmL--NWpcQ.png",
     },
     {
         id: 3,
@@ -94,6 +103,7 @@ export default [
         tag: "popular",
         main: "articleLink",
         publishedDate: "2017-10-06",
+        heroImage: "https://cdn-images-1.medium.com/max/800/1*F-EDLK-OugJ_4KOgtJqnPA.png",
     },
     {
         id: 2,
@@ -103,6 +113,7 @@ export default [
         articleLink: "https://blog.campvanilla.com/nodejs-graphicsmagick-cropping-resizing-server-api-b410fe98e41",
         main: "articleLink",
         publishedDate: "2017-08-25",
+        heroImage: "https://cdn-images-1.medium.com/max/800/1*wQOo8PgwXVsEGh1KiVvBZw.png",
     },
     {
         id: 1,
@@ -112,5 +123,6 @@ export default [
         articleLink: "https://blog.campvanilla.com/debug-website-on-mobile-device-5c27c8809d39",
         main: "articleLink",
         publishedDate: "2017-08-18",
+        heroImage: "https://cdn-images-1.medium.com/max/800/1*wQOo8PgwXVsEGh1KiVvBZw.png",
     }
 ];
