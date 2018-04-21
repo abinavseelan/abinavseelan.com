@@ -23,8 +23,7 @@ const Header = () => (
           },
           {
             label: 'Articles',
-            path: 'https://blog.campvanilla.com',
-            external: true
+            path: '/articles',
           },
         ].map(navItem => (<NavItem info={navItem} key={navItem.label} />))
       }

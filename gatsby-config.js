@@ -1,7 +1,4 @@
 module.exports = {
-  siteMetadata: {
-    title: 'Abinav Seelan | UI Engineer, Flipkart.com',
-  },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
