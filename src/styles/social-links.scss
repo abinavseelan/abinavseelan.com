@@ -7,7 +7,7 @@
 
     li {
         display: inline-block;
-        margin-right: 16px;
+        margin-right: 35px;
         opacity: 0.3;
         transition: opacity 0.15s ease-out;
 
@@ -23,6 +23,14 @@
 
         &:hover {
             opacity: 0.8;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .socila-links {
+        li {
+            margin-right: 16px;
         }
     }
 }
