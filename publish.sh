@@ -1,6 +1,12 @@
 #! /bin/bash
 set -e
 
+if [ -z "$1" ]; then
+    echo "No commit message"
+    echo "Usage: ./publish.sh <commit message>"
+    exit -1
+fi
+
 npm run build
 
 echo '⚙️  Creating deployment folder'
