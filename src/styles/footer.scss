@@ -1,0 +1,35 @@
+@import './_colors.scss';
+
+.footer {
+    font-size: 1em;
+    text-align: center;
+    
+    .link-container {
+        color: $light-grey;
+        margin-right: 10px;
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: none;
+        color: $dark-grey;
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
+        transition: all 0.15s ease-out;
+
+        &:hover {
+            border-bottom: 1px solid $light-grey;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        border-top: 1px solid $border-grey;
+        text-align: left;
+
+        .link-container {
+            margin: 10px 0;
+            display: block;
+        }
+    }
+}

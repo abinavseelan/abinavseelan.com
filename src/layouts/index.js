@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Favicon from 'react-favicon';
 
 import Header from '../components/header'
+import Footer from '../components/Footer'
 import LDJSON from '../components/LDJSON';
 
 import './index.scss'
@@ -45,6 +46,8 @@ const Layout = ({ children, data }) => (
     <Header/>
 
     {children()}
+
+    <Footer />
   </div>
 )
 
