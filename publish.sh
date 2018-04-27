@@ -21,7 +21,6 @@ cd ..
 
 echo '📦  Copying files to deployment folder'
 cp -R ./public/* ./deployment
-cp ./resume.pdf ./deployment
 
 echo '🌏  Copying CNAME to deployment folder'
 cp CNAME ./deployment

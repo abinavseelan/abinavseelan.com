@@ -9,7 +9,7 @@ export default ({ title, data, inverted, children }) => (
         <div className="container">
             <h2 className="heading t-bold">{title}</h2>
             
-            { data.map(d => <DataItem key={d.id} data={d} />) }
+            { data && data.map(d => <DataItem key={d.id} data={d} />) }
 
             {children}
         </div>
