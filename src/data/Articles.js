@@ -1,14 +1,24 @@
 export default [
     {
+        id: 13,
+        heading: "Setting up React & Express, with Hot Module Replacement",
+        subHeadings: ["A slightly different approach"],
+        description: `<p>Webpack-dev-server is an excellent utility for quickly building client-side applications. With hot module replacement out of the box, development becomes are breeze. ⚡️ Webpack-dev-server, at its…</p>`,
+        articleLink: "https://medium.com/@abinavseelan/react-express-hot-module-reloading-with-webpack-dev-server-5c9c67dcbb5e",
+        tag: "new",
+        notify: {
+            text: 'New!'
+        },
+        main: "articleLink",
+        publishedDate: "2018-06-01",
+        heroImage: "https://cdn-images-1.medium.com/max/2000/1*mxhWy2lwPrRLIff5Kh9YTg.jpeg",
+    },
+    {
         id: 12,
         heading: "The Page Visibility API",
         subHeadings: ["Do something with your webpage when your user switches tabs"],
         description: `<p>The Page Visibility API provides us a means to know whether the user of our webpage is actively viewing the page or has moved the page to the background, by either switching tabs or minimizing the…</p>`,
         articleLink: "https://blog.campvanilla.com/the-page-visibility-api-24532b2f5ea2",
-        tag: "new",
-        notify: {
-            text: 'New!'
-        },
         main: "articleLink",
         publishedDate: "2018-03-17",
         heroImage: "https://cdn-images-1.medium.com/max/2000/1*NJVXyesWJy81Hbp2h1fh7Q.jpeg",

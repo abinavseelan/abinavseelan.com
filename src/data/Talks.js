@@ -1,5 +1,27 @@
 export default [
     {
+        id: 8,
+        heading: "Animation Performance - Quick wins",
+        subHeadings: ["June 2018, Flipkart's UI Bootcamp"],
+        description: `<p>A talk on the performance aspect of UI animations<p>`,
+        eventLink: "",
+        githubLink: "https://github.com/abinavseelan/animations-performance",
+        videoLink: "",
+        slidesLink: "https://slides.com/abinavseelan/animations",
+        main: "slidesLink",
+    },
+    {
+        id: 7,
+        heading: "An Introduction to Redux - v2",
+        subHeadings: ["May 2018, Flipkart's UI Bootcamp"],
+        description: `<p>A talk introducing the core concepts of redux as a standalone library, showcasing the API that the library provides as well as demoing the usage of redux outside of react in a vanilla javascript environment.<p>`,
+        eventLink: "",
+        githubLink: "https://github.com/abinavseelan/introduction-to-redux-v2",
+        videoLink: "",
+        slidesLink: "https://slides.com/abinavseelan/an-introduction-to-redux-2",
+        main: "slidesLink",
+    },
+    {
         id: 6,
         heading: "JS For Newbies #2 - Data types, arrays, objects, functions",
         subHeadings: ["January 2018, JS Meetup Bangalore (Online)"],
@@ -24,7 +46,7 @@ export default [
     {
         id: 4,
         heading: "Investigating Memory Leaks (and performance tuning your Javascript)",
-        subHeadings: ["October 2017, AngularJS & ReactJS Bangalore"],
+        subHeadings: ["June 2018, Flipkart's UI Bootcamp", "October 2017, AngularJS & ReactJS Bangalore"],
         description: `<p>A talk on how garbage collection and memory leaks occur in Javascript, and how these memory leaks can be investigated and fixed using the Chrome Developer Tools.</p>`,
         eventLink: "https://www.meetup.com/AngularJS-Bangalore/events/243573762/",
         githubLink: null,
