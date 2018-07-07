@@ -1,10 +1,12 @@
 export default [
     {
         id: 4,
-        heading: "MERN.io",
-        subHeadings: ["Easily build production ready universal apps"],
-        description: `<p>A powerful boilerplate project that gives you a solid head start on building universal React apps. Beginner friendly, comes with great Developer Experience and is highly flexible. I'm currently maintaining the project and working on version 3.</p>`,
-        projectLink: "https://mern.io/",
+        heading: "Jaldi CLI",
+        subHeadings: ["CLI utility to quickly bootstrap projects.⚡️"],
+        description: `<p>jaldi (which is Hindi for quickly ⚡️) aims to remove the hassle of bootstrapping new projects, without being opinionated in project approach or abstracting away control from the developer.</p>
+
+        <p>jaldi creates the boilerplate that every developer needs to set up in the first 15 minutes of starting a project and then gets out of your way ... completely.</p>`,
+        projectLink: "https://www.npmjs.com/package/jaldi",
         main: "projectLink",
     },
     {
