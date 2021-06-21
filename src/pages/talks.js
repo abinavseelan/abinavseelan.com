@@ -10,7 +10,7 @@ const TalksPage = () => (
         <Link to="/" className="transparent-button">‹ Back</Link>
         <h2 className="heading t-bold">Talks.</h2>
         {
-            talks.map(talk => <ExpandedCard key={talk.id} data={talk} />)
+            talks.map(talk => <ExpandedCard key={talk.heading} data={talk} />)
         }
     </div>
 );
