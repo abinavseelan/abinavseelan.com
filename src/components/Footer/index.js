@@ -6,7 +6,7 @@ const Footer = () => (
     <footer className="footer">
         <div className="container">
             <div className="link-container">
-                Built with <a className="t-bold" href="gatsbyjs.org/">GatsbyJS ❤️ </a>
+                Built with <a className="t-bold" href="https://gatsbyjs.org/">GatsbyJS ❤️ </a>
             </div>
             <div className="link-container">
                 View website <a className="t-bold" href="https://github.com/abinavseelan/abinavseelan.com">source on Github</a>
