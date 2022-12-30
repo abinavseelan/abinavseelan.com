@@ -2,7 +2,7 @@
   "name": "personal-website",
   "private": true,
   "dependencies": {
-    "gatsby": "^1.9.247",
+    "gatsby": "^5.3.3",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-google-fonts": "0.0.4",
